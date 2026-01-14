@@ -1,0 +1,30 @@
+name: SkillBookPlugin
+version: ${project.version}
+main: com.skillbook.SkillBookPlugin
+api-version: '1.20'
+description: MythicMobs 연동 스킬북 & 키바인딩 스킬 시스템
+author: SkillBook Team
+depend:
+  - MythicMobs
+
+commands:
+  스킬북:
+    description: 스킬북을 지급합니다
+    usage: /스킬북 <스킬ID>
+    permission: skillbook.admin
+  스킬리스트:
+    description: 보유한 스킬 목록을 확인합니다
+    usage: /스킬리스트
+    permission: skillbook.use
+  스킬:
+    description: 스킬 시스템 관리 명령어
+    usage: /스킬 리로드
+    permission: skillbook.admin
+
+permissions:
+  skillbook.admin:
+    description: 스킬북 관리자 권한
+    default: op
+  skillbook.use:
+    description: 스킬 사용 권한
+    default: true

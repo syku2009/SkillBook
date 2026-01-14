@@ -1,0 +1,17 @@
+# SkillBook Plugin Configuration
+
+# 메시지 설정
+messages:
+  skill-not-found: "§c존재하지 않는 스킬입니다."
+  skill-already-learned: "§c이미 습득한 스킬입니다."
+  skill-learned: "§a스킬을 습득했습니다: %skill%"
+  cooldown-remaining: "§c아직 %time%초 남았습니다."
+  no-permission: "§c권한이 없습니다."
+  skill-reloaded: "§a스킬 정보가 리로드되었습니다."
+  similar-skills: "§e비슷한 스킬 목록:"
+
+# 더블 쉬프트 감지 시간 (밀리초)
+double-shift-interval: 300
+
+# 스킬북 CustomModelData 시작 번호
+cmd-start: 30000
